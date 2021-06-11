@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   flask:
-    image: test-flask
-    build:
-      dockerfile: Dockerfile
-      context: .
+    image: 265784926055.dkr.ecr.us-east-1.amazonaws.com/py-docker:latest
+#    build:
+#      dockerfile: Dockerfile
+#      context: .
