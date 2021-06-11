@@ -25,7 +25,7 @@ jobs:
         id: build-image
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          ECR_REPOSITORY: 265784926055.dkr.ecr.us-east-1.amazonaws.com/py-docker
+          ECR_REPOSITORY: py-docker
           IMAGE_TAG: latest
         run: |
           # Build a docker container and push it to ECR
