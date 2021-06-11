@@ -107,7 +107,7 @@ welcome = """
 </head>
 <body id="sample">
   <div class="textColumn">
-    <h1>Congratulations!</h1>
+    <h1>Yay!</h1>
     <p>WELCOME MOTHERFUCKERS</p>
     <p>This environment is launched with Elastic Beanstalk Docker Platform</p>
   </div>
