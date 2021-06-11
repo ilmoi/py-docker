@@ -38,10 +38,13 @@ jobs:
     runs-on: ubuntu-latest
     #todo later add depends on
     steps:
+#      - name: Checkout repo code
+#        uses: Bhacaz/checkout-files
+#        with:
+#          files: docker-compose.yml
+
       - name: Checkout repo code
-        uses: Bhacaz/checkout-files
-        with:
-          files: docker-compose.yml
+        uses: actions/checkout@v2
 
       - name: Elastic Beanstalk Deployment
         uses: hmanzur/actions-aws-eb@v1.0.0
