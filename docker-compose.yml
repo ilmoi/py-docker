@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  flask:
+    image: test-flask
+    build:
+      dockerfile: Dockerfile
+      context: .
